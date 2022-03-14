@@ -7,3 +7,13 @@
       *
            PERFORM  EDIT-ENTETE1-00 THRU EDIT-ENTETE1-99.
            PERFORM  EDIT-ENTETE2-00 THRU EDIT-ENTETE2-99.
+	        
+           MOVE "N"             TO W-UNIT.
+           IF  L-T61RV001-AGENC NOT = ZEROES
+           AND L-T61RV001-SERVI NOT = SPACES
+           AND L-T61RV001-SSERV NOT = SPACES
+           AND L-T61RV001-OPERA NOT = SPACES
+           AND L-T61RV001-NUDOS NOT = ZEROES
+           AND L-T61RV001-NUPRE NOT = ZEROES
+               MOVE "O"         TO W-UNIT
+           END-IF.
