@@ -1,3 +1,4 @@
 Première ligne
 Deuxième ligne
-Troisième et dernière ligne du doc readme.txt
+Troisième 
+quatrième ligne ajouté en local
