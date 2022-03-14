@@ -1,4 +1,4 @@
-Première ligne
+Première ligne modifié serveur
 Deuxième ligne
 Troisième 
-quatrième ligne ajouté en local
+Quatrième ligne fusionné en local
